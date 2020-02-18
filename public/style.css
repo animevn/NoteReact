@@ -1,0 +1,36 @@
+/*font-family: 'McLaren', cursive;*/
+
+.container-fluid{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.heading-title{
+    font-family: 'McLaren', cursive;
+}
+
+.footer-title{
+    font-family: 'McLaren', cursive;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.image-style{
+    width: 100%;
+    height: auto;
+}
+
+.circle-cropper-portrait {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circle-cropper-portrait img {
+    width: 100%;
+    height: auto;
+}
+
