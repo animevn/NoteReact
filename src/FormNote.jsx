@@ -7,26 +7,17 @@ function FormNote(props) {
     content:""
   });
 
-
   function handleInputChanged(event) {
     let {name, value} = event.target;
-    if (name === "title"){
-      setForm({
-        title: value,
-        content: form.content
-      })
-    }
-
-    if (name === "content"){
-      setForm({
-        title: form.title,
-        content: value
-      })
-    }
+    if (name === "title"){setForm({...form, title:value})}
+    if (name === "content"){setForm({...form, content: value})}
   }
 
   function handleSaveClick() {
-    console.log(form)
+    if (form.title !== "" && form.content !== ""){
+      props.sendNote(form)
+      setForm({title: "", content: ""})
+    }
   }
 
   return (

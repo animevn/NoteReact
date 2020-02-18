@@ -1,5 +1,10 @@
 /*font-family: 'McLaren', cursive;*/
 
+.footer-title{
+    font-family: 'McLaren', cursive;
+    padding-top: 500px;
+}
+
 .container-fluid{
     padding-left: 5%;
     padding-right: 5%;
@@ -7,13 +12,6 @@
 
 .heading-title{
     font-family: 'McLaren', cursive;
-}
-
-.footer-title{
-    font-family: 'McLaren', cursive;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
 }
 
 .image-style{
